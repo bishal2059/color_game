@@ -1,0 +1,110 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+header {
+  width: 1000px;
+  height: 100px;
+  position: relative;
+}
+.again {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 10%;
+  height: 40%;
+}
+h1 {
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+
+.guess p {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  margin: 0;
+  font-size: x-large;
+}
+.guess .next {
+  position: absolute;
+  top: 10%;
+  right: 3%;
+  margin: 0;
+}
+.next {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  margin: 20px;
+}
+.box {
+  width: 500px;
+  height: 500px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+}
+
+.box section {
+  background-color: rgb(2, 2, 2);
+  width: 30%;
+  height: 30%;
+  position: absolute;
+}
+.one {
+  top: 0;
+  left: 0;
+}
+
+.two {
+  top: 0;
+  left: 35%;
+}
+
+.three {
+  top: 0;
+  right: 0;
+}
+
+.four {
+  top: 35%;
+  left: 0;
+}
+
+.five {
+  top: 35%;
+  left: 35%;
+}
+.six {
+  top: 35%;
+  right: 0;
+}
+.seven {
+  bottom: 0%;
+  left: 0%;
+}
+.eight {
+  bottom: 0;
+  left: 35%;
+}
+.nine {
+  bottom: 0;
+  right: 0;
+}
+
+.main {
+  display: grid;
+  place-items: center;
+}
+.info {
+  margin: 20px;
+  font-size: 25px;
+}
